@@ -26,7 +26,7 @@ BOT_VER = "0.2.0@main"
 BRANCH = "main"
 CHANNEL = getenv("CHANNEL", "Arabc0de")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
-DB_URL = getenv("DATABASE_URL", "")
+DB_URL = getenv("DATABASE_URL", "postgres://rqswfcxa:G-zGbJW1dw2NWCkwtqFBUqGs8jpnVf4m@berry.db.elephantsql.com/rqswfcxa")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
     b64decode("Z2hwX2xYRzdPQUlnenpWTXYxWEt2VzdLa0ZGa0xmYVBRYzRKcWFPbw==").decode(
