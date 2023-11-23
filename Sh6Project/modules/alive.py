@@ -46,7 +46,7 @@ async def alive(client: Client, message: Message):
     send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
-        f"**[PyroSupra-Userbot](https://github.com/Sh6Kuro/PyroSupra-Userbot) is Up and Running.**\n\n"
+        f"**SiArab-Userbot is Up and Running.**\n\n"
         f"<b>{alive_text}</b>\n\n"
         f"{emoji} <b>Master :</b> {client.me.mention} \n"
         f"{emoji} <b>Modules :</b> <code>{len(modules)} Modules</code> \n"
